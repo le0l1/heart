@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上海交通大学医学院附属瑞金医院</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div class="app__bg">
+        <div class="app__logo">
+            <img src="assets/瑞金logo.png" width="60" height="60" />
+            <span>上海交通大学医学院附属瑞金医院</span>
+        </div>
+        <!--        first page-->
+        <div class="first page" >
+            <div class="first__menu">
+                <div class="first__item">
+                    <div class="first__item-icon">
+                        <img src="assets/心贴.svg" />
+                    </div>
+                    <span>心贴</span>
+                </div>
+                <div class="first__item">
+                    <div class="first__item-icon">
+                        <img src="assets/手表.svg" style="top: 5px" />
+                    </div>
+                    <span>手表</span>
+                </div>
+                <div class="first__item">
+                    <div class="first__item-icon">
+                        <img src="assets/心电图机.svg" style="top: 5px"  />
+                    </div>
+                    <span>心电图机</span>
+                </div>
+                <div class="first__item">
+                    <div class="first__item-icon">
+                        <img src="assets/监护仪.svg" style="top: 5px" />
+                    </div>
+                    <span>监护仪</span>
+                </div>
+            </div>
+        </div>
+        <!-- second page-->
+        <div class="page second">
+            <div>
+                <div class="second__title">上海心跳</div>
+                <div class="second__subtitle">基于百万数据集的真实世界研究</div>
+                <img class="second__hear-rate" src="assets/未标题1.gif">
+            </div>
+        </div>
+        <!-- third page-->
+        <div class="page third" >
+                <div class="third__left">
+                    <div class="third__left-title">
+                        <img src="assets/心.png" width="50" height="50" style="position: relative; top: -5px;">
+                        <span>上海心脏</span>
+                    </div>
+                    <div class="third__left-map"></div>
+                    <select class="third__left-section">
+                        <option>黄浦区</option>
+                        <option>徐汇区</option>
+                        <option>长宁区</option>
+                        <option>静安区</option>
+                        <option>普陀区</option>
+                        <option>虹口区</option>
+                        <option>杨浦区</option>
+                    </select>
+                </div>
+                <div class="third__right">
+                    <div class="third__right-top">
+                        <div class="third__right__color-menu">
+                            <div style="color: #503acb;">
+                                <div class="third__right__color" style="background-color: #503acb;"></div>
+                                >140
+                            </div>
+                            <div style="color:#9e6ecf ">
+                                <div class="third__right__color" style="background-color: #9e6ecf"></div>
+                                120~140
+                            </div>
+                            <div style="color: #d579a2">
+                                <div class="third__right__color" style="background-color: #d579a2"></div>
+                                100~120
+                            </div>
+                            <div style="color: #6ce058">
+                                <div class="third__right__color" style="background-color: #6ce058"></div>
+                                60~100
+                            </div>
+                            <div style="color: #edd362">
+                                <div class="third__right__color" style="background-color: #edd362"></div>
+                                55~60
+                            </div>
+                            <div style="color: #e8ab45">
+                                <div class="third__right__color" style="background-color: #e8ab45"></div>
+                                50~55
+                            </div>
+                            <div style="color: #ce7b3b">
+                                <div class="third__right__color" style="background-color: #ce7b3b"></div>
+                                <50
+                            </div>
+                        </div>
+                        <div style="margin-left: 50px">
+                            <div class="third__right-title">佩戴者实时监控</div>
+                            <div class="third__right-panel">
+                                <div>
+                                    <label>姓名: <span>张三</span></label>
+                                    <label>年龄: <span>65</span></label>
+                                    <label>性别: <span>男</span></label>
+                                    <label>位置: <span>上海瑞金医院</span></label>
+                                </div>
+                                <div class="third__right-value">
+                                    <img src="assets/心.png" width="80" height="80" style="position: relative; top: -5px;">
+                                    <span class="third__right-num">
+                                        75
+                                    </span>
+                                    <span class="third__right-unit">BPM</span>
+                                </div>
+                                <div>
+                                    <img src="assets/xianlutu.gif" width="500"  class="third__right-line">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third__right__bottom">
+                        <div class="third__right__bottom-mean">
+                            <span class="third__right__bottom-value" style="color: #84d615">70</span>
+                            <span class="third__right__bottom-unit">次/分</span>
+                            <p class="third__right__bottom-alt">平均速率</p>
+                        </div>
+                        <div class="third__right__bottom-mean">
+                            <span class="third__right__bottom-value" style="color: #950a27">40</span>
+                            <span class="third__right__bottom-unit">%</span>
+                            <p class="third__right__bottom-alt">心率变异性</p>
+                        </div>
+                        <div class="third__right__bottom-mean">
+                            <span class="third__right__bottom-value" style="color: #84d615">4</span>
+                            <span class="third__right__bottom-unit">秒</span>
+                            <p class="third__right__bottom-alt">最大心率达峰时间</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js" ></script>
+</body>
+</html>
